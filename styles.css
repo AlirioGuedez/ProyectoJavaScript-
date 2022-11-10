@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header {
+  background: center;
+  background: url(imagenes/header.jpg);
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-flow: row nowrap;
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 255);
+}
+.logo {
+  flex: 1 1 auto;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #fac213;
+}
+.nav {
+  flex: 5 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav a {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: a 10px;
+  letter-spacing: 2px;
+}
+.nav a:hover {
+  color: #fac213;
+}
+
+.social {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social a {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: a 10px;
+  letter-spacing: 2px;
+}
+.social a:hover {
+  color: #fac213;
+}
+.texto-principal {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.texto-principal h1 {
+  font-family: 'Montserrat', serif;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.6;
+}
+input[type='number'] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #ff7104;
+  color: white;
+}
+
+.section {
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.estacion {
+  background: #090909;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: #444;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 1px;
+  background: url(imagenes/header.jpg);
+}
+.caja {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  border: 1px solid slategrey;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 380px;
+  height: 180px;
+  margin: 5px;
+}
+.registroEsta {
+  flex: 1 1 40%;
+  background: #ffffff;
+}
+
+.section2 {
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.registroCliente {
+  flex: 1 1 40%;
+  background: #ffffff;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #444;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 1px;
+  background: url(imagenes/header.jpg);
+}
+.caja1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: flex-end;
+  border: 1px solid slategrey;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 300px;
+  height: 60px;
+  margin: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.pie {
+  width: 30%;
+}
+.pie a {
+  color: rgb(55, 0, 0);
+  text-decoration: none;
+}
+.pie a:hover {
+  color: #fac213;
+}

@@ -1,0 +1,8 @@
+[
+  { "numeroPuesto": 1, "fechaentrada": "30/09/2022 9:14:00", "estado": true },
+  { "numeroPuesto": 2, "fechaentrada": "30/09/2022 9:14:00", "estado": true },
+  { "numeroPuesto": 3, "fechaentrada": "30/09/2022 9:14:00", "estado": true },
+  { "numeroPuesto": 4, "fechaentrada": "30/09/2022 9:14:00", "estado": false },
+  { "numeroPuesto": 5, "fechaentrada": "30/09/2022 9:14:00", "estado": false },
+  { "numeroPuesto": 6, "fechaentrada": "30/09/2022 9:14:00", "estado": false }
+]

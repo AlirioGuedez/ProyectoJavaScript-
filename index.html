@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://kit.fontawesome.com/8fc4d676c3.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bienvenido al Estacionamiento de Caballito</title>
+  </head>
+
+  <body>
+    <div class="padre">
+      <header class="header">
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html"><img src="imagenes/logo.png" alt="logo" title></a>
+          </div>
+          <div class="nav">
+            <a href="#"><i class="fa-solid fa-house-circle-check"></i>Inicio</a>
+            <a href="#"><i class="fa-solid fa-car"></i>Auto</a>
+            <a href="#"><i class="fa-solid fa-people-group"></i>Cliente</a>
+            <a href="#"><i class="fa-solid fa-warehouse"></i>Estacionamiento</a>
+          </div>
+          <div class="social">
+            <div>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div>
+              estacion
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="texto-principal">
+          <h1><i class="fa-solid fa-stopwatch-20"></i>Bienvenido al Estacionamiento<i class="fa-solid fa-stopwatch-20"></i></h1>
+          <h1><i class="fa-solid fa-stopwatch-20"></i>Ingrese el Monto a Cobrar por hora<i class="fa-solid fa-stopwatch-20"></i></h1>
+          <input type="number" id="tiempoXhora" name="fname" >
+          <button type="button" value="Enviar" onclick="txHora()">ingresar</button>
+          
+        </div>
+      </header>
+
+      <div class="section">
+        <div class="estacion">
+          <div id="resultadoEstacionamiento" value="Enviar" class="contenedor"></div>
+        </div>
+
+        <div class="registroEsta">
+          <h3>Agregar un puesto del Estacionamiento</h3>
+          <label>Puesto Numero:</label>
+          <input type="text" id="numeroPuesto" placeholder="Puesto Numero" />
+          <button type="submit" value="Enviar" id="myBtn" onclick="ingresarEstacionamiento()">Guardar</button>
+        </div>
+
+    </div>
+
+    <div class="section2">
+      <div class="registroCliente">
+        <h3 id="ok">Buscar Puesto Desocupado</h3>
+
+        <button type="button" value="Enviar" onclick="filtrarEstaciomiento()">Buscar</button>
+      
+      </div>
+      <div class="cliente">
+        <div id="resultadoB" value="Enviar" class="contenedor1"></div>
+      </div>
+
+  </div>
+
+    <footer class="footer">
+      <nav class="pie">
+        <a href="#"> ©Derechos Reservados Alirio 2022</a>
+      </nav>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
+
